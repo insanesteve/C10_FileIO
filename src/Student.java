@@ -1,3 +1,6 @@
+/* Authors: Stephen Agee and Easton Bornemeier
+ * C10 File IO
+ */
 
 public class Student implements Comparable <Student>{
 	private String name;

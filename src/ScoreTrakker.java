@@ -1,3 +1,7 @@
+/* Authors: Stephen Agee and Easton Bornemeier
+ * C10 File IO
+ */
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
@@ -14,7 +18,7 @@ public class ScoreTrakker {
 		FileReader reader = new FileReader(fName);
 		//pass the file reader to a scanner
 		Scanner in = new Scanner(reader);
-
+		//allocate students here to ensure that the students reset with a new file.
 		students = new ArrayList <Student> ();
 		
 		//read data from the file while it's not the end of the file, and store the information in student. 
